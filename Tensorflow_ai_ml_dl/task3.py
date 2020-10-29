@@ -73,7 +73,7 @@ def train_mnist_conv():
     # model fitting
     history = model.fit(
         # YOUR CODE STARTS HERE
-        training_images, training_labels, epochs=19
+        training_images, training_labels, epochs=19, callbacks=[callbacks]
         
         # YOUR CODE ENDS HERE
     )
